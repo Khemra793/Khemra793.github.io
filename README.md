@@ -1,4 +1,4 @@
-# Atelier shop
+# H&K shop
 
 Full-stack sample store: catalog, cart, and checkout against Next.js API routes with mock products.
 
