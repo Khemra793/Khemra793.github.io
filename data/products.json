@@ -1,0 +1,149 @@
+[
+  {
+    "id": "p1",
+    "slug": "linen-overshirt",
+    "name": "Linen Overshirt",
+    "description": "A relaxed overshirt in stone-washed linen. Cut for layering with a concealed placket and horn buttons.",
+    "price": 128,
+    "category": "Apparel",
+    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=1200&q=80",
+    "stock": 18,
+    "featured": true
+  },
+  {
+    "id": "p2",
+    "slug": "wool-crewneck",
+    "name": "Merino Crewneck",
+    "description": "Fine-gauge merino sweater with a clean crew neck. Warm without bulk, made for everyday wear.",
+    "price": 96,
+    "category": "Apparel",
+    "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=1200&q=80",
+    "stock": 24,
+    "featured": true
+  },
+  {
+    "id": "p3",
+    "slug": "selvedge-denim",
+    "name": "Selvedge Denim",
+    "description": "Straight-leg jeans in 13oz Japanese selvedge. Will fade with you if you give them time.",
+    "price": 158,
+    "category": "Apparel",
+    "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=1200&q=80",
+    "stock": 12
+  },
+  {
+    "id": "p4",
+    "slug": "canvas-tote",
+    "name": "Canvas Market Tote",
+    "description": "Heavy cotton canvas tote with a wide base and leather handles. Holds a week's groceries or a laptop.",
+    "price": 48,
+    "category": "Bags",
+    "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=1200&q=80",
+    "stock": 40,
+    "featured": true
+  },
+  {
+    "id": "p5",
+    "slug": "weekender-bag",
+    "name": "Leather Weekender",
+    "description": "Full-grain leather holdall with a brass zip and a removable shoulder strap. One bag for overnight trips.",
+    "price": 240,
+    "category": "Bags",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=1200&q=80",
+    "stock": 8
+  },
+  {
+    "id": "p6",
+    "slug": "ceramic-mug",
+    "name": "Speckled Ceramic Mug",
+    "description": "Hand-thrown mug with a matte glaze and a comfortable handle. Holds 12oz of whatever you need.",
+    "price": 28,
+    "category": "Home",
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=1200&q=80",
+    "stock": 60,
+    "featured": true
+  },
+  {
+    "id": "p7",
+    "slug": "linen-napkins",
+    "name": "Linen Napkin Set",
+    "description": "Set of four stonewashed linen napkins. Soft from the first wash, better with every dinner.",
+    "price": 42,
+    "category": "Home",
+    "image": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1200&q=80",
+    "stock": 32
+  },
+  {
+    "id": "p8",
+    "slug": "oak-tray",
+    "name": "White Oak Tray",
+    "description": "Solid oak serving tray with carved handles. For coffee in bed or keys by the door.",
+    "price": 74,
+    "category": "Home",
+    "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80",
+    "stock": 15
+  },
+  {
+    "id": "p9",
+    "slug": "desktop-speaker",
+    "name": "Walnut Desktop Speaker",
+    "description": "Compact Bluetooth speaker in walnut veneer. Warm mids, honest volume, no LED circus.",
+    "price": 189,
+    "category": "Audio",
+    "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=1200&q=80",
+    "stock": 10,
+    "featured": true
+  },
+  {
+    "id": "p10",
+    "slug": "studio-headphones",
+    "name": "Closed-Back Headphones",
+    "description": "Studio-style closed backs with replaceable pads. Isolation without squeezing your temples.",
+    "price": 210,
+    "category": "Audio",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1200&q=80",
+    "stock": 14
+  },
+  {
+    "id": "p11",
+    "slug": "daylight-lamp",
+    "name": "Daylight Desk Lamp",
+    "description": "Adjustable brass lamp with a linen shade. Tuned for evening reading, not a nightclub.",
+    "price": 112,
+    "category": "Home",
+    "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=1200&q=80",
+    "stock": 20
+  },
+  {
+    "id": "p12",
+    "slug": "wool-cap",
+    "name": "Felted Wool Cap",
+    "description": "Unstructured cap in felted wool. Brim holds its shape; the rest forgets it was ever new.",
+    "price": 54,
+    "category": "Apparel",
+    "image": "https://images.unsplash.com/photo-1521369909029-2afed882baee?auto=format&fit=crop&w=1200&q=80",
+    "stock": 22
+  },
+  {
+    "id": "gagddf-08f93b26",
+    "slug": "gagddf",
+    "name": "orange",
+    "description": "fgd",
+    "price": 3,
+    "category": "fruite",
+    "image": "data:image/jpeg;base64,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",
+    "stock": 2,
+    "featured": false
+  },
+  {
+    "id": "minnie-mouse-bow-jogger-set-b44cac7f",
+    "slug": "minnie-mouse-bow-jogger-set",
+    "name": "Minnie Mouse Bow Jogger Set",
+    "description": "Inclusive of all taxes",
+    "price": 12,
+    "category": "cloothes",
+    "image": "/uploads/17f09069-a65d-42c4-b432-0517bee80618.jpg",
+    "stock": 20,
+    "featured": false
+  }
+]

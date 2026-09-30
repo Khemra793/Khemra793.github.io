@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: atelier-shop
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: SHOP_DATA_DIR
+        value: /var/data
+      - key: SHOP_UPLOAD_DIR
+        value: /var/data/uploads
+    disk:
+      name: atelier-data
+      mountPath: /var/data
+      sizeGB: 1
