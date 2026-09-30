@@ -17,7 +17,7 @@ const serif = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: "Atelier — Shop",
+  title: "H&K — Shop",
   description: "A full-stack sample store with catalog, cart, and checkout API.",
 };
 

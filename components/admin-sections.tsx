@@ -183,14 +183,14 @@ export function AdminOrders() {
             <div className="packing-to"><p className="packing-kicker">TO:</p><div><p className="packing-recipient">{printOrder.customer.name}</p><p>{printOrder.customer.address}</p><p>{printOrder.customer.city}{printOrder.customer.postalCode ? `, ${printOrder.customer.postalCode}` : ""}</p></div></div>
           </div>
           <div className="packing-priority">PRIORITY PACKING</div>
-          <div className="packing-from"><p className="packing-kicker">FROM:</p><div><p className="font-semibold">ATELIER SHOP</p><p>Customer order desk</p><p>{printOrder.customer.phone ?? "Phone not provided"}</p></div></div>
+          <div className="packing-from"><p className="packing-kicker">FROM:</p><div><p className="font-semibold">H&amp;K SHOP</p><p>Customer order desk</p><p>{printOrder.customer.phone ?? "Phone not provided"}</p></div></div>
           <div className="packing-grid">
             <div className="packing-cell"><p className="packing-kicker">ORDER NR:</p><p className="packing-value">{printOrder.id.slice(0, 8).toUpperCase()}</p><div className="packing-barcode mt-3" /><p className="packing-code">{printOrder.id}</p></div>
             <div className="packing-cell"><p className="packing-kicker">SHIP DATE:</p><p className="packing-value">{new Date(printOrder.createdAt).toLocaleDateString()}</p><p className="packing-kicker mt-6">STATUS:</p><p className="packing-value">{orderStatuses.find((status) => status.value === printOrder.status)?.label}</p></div>
             <div className="packing-cell packing-items"><p className="packing-kicker">ITEMS TO PACK:</p><ul className="mt-3 space-y-2">{printOrder.items.map((item) => <li key={item.productId} className="flex justify-between gap-4"><span>{item.name}</span><strong>x{item.quantity}</strong></li>)}</ul></div>
             <div className="packing-cell"><p className="packing-kicker">CONTACT PHONE:</p><p className="packing-value break-all">{printOrder.customer.phone ?? "Not provided"}</p><p className="packing-kicker mt-6">TOTAL:</p><p className="packing-value">{formatMoney(printOrder.total)}</p></div>
           </div>
-          <div className="packing-footer"><div className="packing-handling"><span className="packing-symbol">↑↑</span><span>HANDLE WITH CARE</span></div><div className="packing-barcode packing-barcode-wide" /><p className="packing-thanks">Thank you for shopping with Atelier.</p></div>
+          <div className="packing-footer"><div className="packing-handling"><span className="packing-symbol">↑↑</span><span>HANDLE WITH CARE</span></div><div className="packing-barcode packing-barcode-wide" /><p className="packing-thanks">Thank you for shopping with H&amp;K.</p></div>
         </section>
       ) : null}
     </div>

@@ -16,11 +16,11 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-30 border-b border-[var(--line)] bg-[color-mix(in_oklab,var(--background)_86%,transparent)] backdrop-blur-md">
-      <div className="mx-auto flex h-18 max-w-6xl items-center justify-between px-4 sm:px-6">
-        <Link href="/" className="font-serif text-2xl tracking-tight text-[var(--accent-strong)]">
-          Atelier
+      <div className="mx-auto flex h-16 min-w-0 max-w-6xl items-center justify-between gap-2 px-3 sm:h-18 sm:px-6">
+        <Link href="/" className="shrink-0 font-serif text-[1.35rem] tracking-tight text-[var(--accent-strong)] sm:text-2xl">
+          H&K
         </Link>
-        <nav className="flex items-center gap-2 text-sm sm:gap-3">
+        <nav className="flex min-w-0 shrink items-center justify-end gap-0.5 text-xs sm:gap-3 sm:text-sm">
           {links.map((link) => {
             const isCartLink = link.href === "/cart";
             const isActive = pathname === link.href || (link.href !== "/" && pathname.startsWith(link.href));
@@ -32,8 +32,8 @@ export function Header() {
                 aria-label={isCartLink ? `Cart with ${cartCount} items` : link.label}
                 className={
                   isActive
-                    ? "rounded-full bg-[var(--ink)] px-3 py-1.5 font-medium text-white"
-                    : "rounded-full px-3 py-1.5 text-[var(--muted)] transition hover:bg-white/80 hover:text-[var(--ink)]"
+                    ? "rounded-full bg-[var(--ink)] px-2 py-1.5 font-medium text-white sm:px-3"
+                    : "rounded-full px-2 py-1.5 text-[var(--muted)] transition hover:bg-white/80 hover:text-[var(--ink)] sm:px-3"
                 }
               >
                 <span className="inline-flex items-center gap-2">
@@ -52,13 +52,13 @@ export function Header() {
           })}
           <Link
             href="/checkout"
-            className="rounded-full bg-[var(--accent)] px-4 py-2 text-sm font-medium text-white transition hover:-translate-y-0.5 hover:bg-[var(--accent-hover)]"
+            className="shrink-0 rounded-full bg-[var(--accent)] px-2.5 py-2 text-xs font-medium text-white transition hover:-translate-y-0.5 hover:bg-[var(--accent-hover)] sm:px-4 sm:text-sm"
           >
             Checkout
           </Link>
           <Link
             href="/admin"
-            className="rounded-full border border-[var(--line)] bg-white/80 px-4 py-2 text-sm font-medium text-[var(--muted)] transition hover:-translate-y-0.5 hover:bg-white hover:text-[var(--ink)]"
+            className="shrink-0 rounded-full border border-[var(--line)] bg-white/80 px-2.5 py-2 text-xs font-medium text-[var(--muted)] transition hover:-translate-y-0.5 hover:bg-white hover:text-[var(--ink)] sm:px-4 sm:text-sm"
           >
             Admin
           </Link>
